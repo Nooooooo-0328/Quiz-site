@@ -1,0 +1,31 @@
+<!--  Nooooooo  -->
+<!--  改変や複製を一切禁止します。  -->
+<!--  https://github.com/Nooooooo-0328/Quiz-site  -->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クイズゲーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1 id="question"></h1>
+        <div id="options-container"></div>
+        <div id="feedback" style="display: none;"></div>
+        <div id="final-score" style="display: none;">
+            <h2>クイズ終了！</h2>
+            <p id="score-text"></p>
+            <div id="correct-answers" style="display: none;">
+                <h3>答え合わせ</h3>
+                <ul id="correct-answers-list"></ul>
+            </div>
+            <button id="tweet-button" onclick="tweetResult()">結果をツイート</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

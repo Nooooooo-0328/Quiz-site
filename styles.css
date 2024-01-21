@@ -1,0 +1,65 @@
+/*  Nooooooo  */ 
+/*  改変や複製を一切禁止します。  */
+/*  https://github.com/Nooooooo-0328/Quiz-site */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#options-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+#final-score {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#score-text {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#correct-answers {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  margin-top: 15px;
+}
