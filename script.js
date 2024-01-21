@@ -2,7 +2,7 @@
 //  改変や複製を一切禁止します。  //
 //  https://github.com/Nooooooo-0328/Quiz-site  //
 
-//  答えちゃだめ！！  //
+//  答え見ちゃだめ！！  //
 
 const quizData = [
   {
@@ -132,7 +132,7 @@ function tweetResult() {
   });
   correctAnswersHTML += "</ul>";
 
-  const tweetText = `@Nooooooo_0328\n私のクイズのスコアは、${score} / ${quizData.length}でした。あなたもプレイしましょう！`;
+  const tweetText = `@Nooooooo_0328\n私のクイズのスコアは、${score} / ${quizData.length}でした。あなたもプレイしましょう！\nhttps://nooooooo-0328.github.io/Quiz-site/`;
 
   const tweetURL = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
   
