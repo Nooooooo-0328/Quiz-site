@@ -30,7 +30,7 @@ const quizData = [
       feedback: "正解です！"
   },
   {
-      question: "JavaScriptの略は？",
+      question: "JSの略は？",
       options: ["Java Source", "JavaSlang", "JavaScript", "JavaStyle"],
       correctAnswer: "JavaScript",
       feedback: "正解です！"
